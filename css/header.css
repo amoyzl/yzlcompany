@@ -1,0 +1,85 @@
+.header {
+	background: yellow;
+	/*color: white;*/
+}
+
+.header-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-logo {
+	margin-left: 1em;
+}
+
+.header-nav img {
+	width: 8%;
+	height: 5%;
+}
+
+.nav-list {
+	display: flex;
+}
+
+.nav-list > li > a {
+	background: purple;
+	padding: 1em;
+	/*margin-right: 1em;*/
+}
+
+.nav-list > li > a:hover {
+	background: cyan;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: block;
+	transition-duration: 0.5s;
+}
+
+.product-dropdown {
+	background: pink;
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	transition: all 0.5s ease;
+	margin-top: 1rem;
+	/*left 0;*/
+	display: none;
+}
+
+.nav-list li:hover > ul, .nav-list li product-dropdown:hover {
+	visibility: visible;
+	opacity: 1;
+	display: block;
+}
+
+.nav-list li .product-dropdown li {
+	clear: both;
+	width: 100%;
+}
+
+.nav-link {
+    margin: 1em;
+}
+/*.product-dropdown ul {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: black 5px 5px 10px;
+  }
+.product-dropdown:hover ul {
+    display: block;
+    background: ghostwhite;
+  }*/
+
+li:hover {
+  	background: red;
+  	cursor: pointer;
+}

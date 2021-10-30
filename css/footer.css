@@ -1,0 +1,61 @@
+.footer {
+	background: grey;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.footer div {
+	margin: 2em;
+}
+.footer div h3 {
+	text-align: center;
+}
+.contact-us {
+	/*background: pink;*/
+}
+.address {
+	/*flex-grow: 1;*/
+	/*background: red;*/
+}
+.follow-on {
+	/*background: yellow;*/
+}
+.icons {
+	display: flex;
+	justify-content: center;
+}
+.icons a {
+	display: block;
+}
+
+/*icon*/
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 5px 2px;
+    text-align: center;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
